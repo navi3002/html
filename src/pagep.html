@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage</title>
+</head>
+<body onload='t.innerText = localStorage.getItem("notes")'>
+   <textarea 
+   style="width:100" id="t" placeholder="write it down" spellcheck="true"
+   oninput='localstorage.setItem("notes",this.value)'></textarea>
+</body>
+</html>
