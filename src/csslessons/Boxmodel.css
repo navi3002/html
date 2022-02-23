@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+h1{
+    border-width: 5px;
+    border-style: solid;
+    border-color:blue;
+    border: 5px red ;
+    padding-left: 90px;
+    padding:30px;
+
+}
+h3{
+    padding: 100px;
+    width: 150px;
+    height: 100px;
+    box-sizing: content-box;
+    border: 5px rgb(228, 11, 137);
+}

@@ -1,0 +1,21 @@
+a:link
+{
+    font-size: 35px;
+    text-decoration: none;
+    color: goldenrod;
+}
+a:visited
+{
+    color: aquamarine;
+}
+a:hover
+{
+    color: blue;
+}
+a:active
+{
+    color:red;
+}
+.dropdown-content a{
+    display:none;
+}
