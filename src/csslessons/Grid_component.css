@@ -1,0 +1,101 @@
+body {
+    font-family: 'Karla',sans-serif;
+    background-color: hsl(218, 22%, 67%);
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    color: hsl(204, 43%, 93%);
+  }
+  
+  h4 {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2rem;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  /* border radius */
+  
+  @media (max-width: 767px) {
+    .join {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+  
+    .why-us {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  
+    .fluid-container {
+      padding: 7% 5%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .join {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .pricing {
+      border-bottom-left-radius: 5px;
+    }
+    .why-us {
+      border-bottom-right-radius: 5px;
+    }
+  
+    .fluid-container {
+      padding: 7% 25%;
+    }
+  }
+  
+  .col-padding {
+    padding: 30px;
+  }
+  
+  .join {
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(218, 22%, 70%);
+  }
+  
+  .cyan-color {
+    color: hsl(179, 62%, 43%);
+  }
+  
+  .pricing {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+  }
+  
+  .dollars {
+    font-size: 2rem;
+  }
+  
+  .why-us {
+    background-color: hsl(179, 62%, 55%);
+    color: white;
+  }
+  
+  .btn {
+    background-color: hsl(71, 73%, 54%);
+    width: 95%;
+    color: white;
+    margin-top: 15px;
+  }
+  
+  .attribution {
+     font-size: 11px; text-align: center;
+   }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
