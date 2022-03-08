@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    max-width: 1440px;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.articles {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: 1.6rem;
+    margin: 1rem;
+    border-radius: .7rem;
+    box-shadow: 0 5px 25px 10px rgb(216, 216, 216);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.article--daniel {
+    position: relative;
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: hsl(263, 55%, 52%);
+}
+.article--jonathan {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: hsl(217, 19%, 35%);
+}
+.article--jeanette {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: hsl(0, 0%, 100%);
+}
+.article--patrick {
+    grid-area: 2 / 2 / 3 / 4;
+    background-color: hsl(219, 29%, 14%);
+}
+.article--kira {
+    grid-area: 1 / 4 / 3 / 5;
+    background-color: hsl(0, 0%, 100%);
+}
+.article--daniel, 
+.article--jonathan, 
+.article--patrick {
+    color: hsl(0, 0%, 81%);
+}
+.article--jeanette,
+.article--kira {
+    color: hsl(217, 19%, 35%);
+}
+
+.article--daniel__quotes {
+    position: absolute;
+    padding-top: 0;
+    font-size: 18rem;
+    top: 0;
+    left: 23rem;
+    opacity: .4;
+}
+.articles__names-verified {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 1rem;
+}
+.articles__pictures-profile { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.articles__photo {
+    box-sizing: content-box;
+    max-width: 34px;
+    border-radius: 50%;
+}
+.article--daniel .articles__photo, 
+.article--patrick .articles__photo
+ {
+    border: .15rem solid hsl(266, 63%, 61%);
+}
+.articles__titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    font-size: .8rem;
+}
+.articles__names {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.articles__verified {
+    opacity: .5;
+    margin-top: 0;
+    font-size: .8rem;
+}
+.articles__p{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.articles__quotes {
+    opacity: .7;
+    font-weight: 500;
+    font-size: .85rem;
+    line-height: 1.13rem;
+}
+.attribution {
+    margin-top: 4rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+a {
+    color: rgb(107, 151, 153);
+}
+@media screen and (max-width: 900px){
+    body {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column; 
+    }
+}
