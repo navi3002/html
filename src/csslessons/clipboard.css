@@ -1,8 +1,8 @@
 :root {
-    --strong-cyan: hsl(171, 66%, 44%);
-    --light-blue: hsl(233, 100%, 69%);
     --dark-grayish-blue: hsl(210, 10%, 33%);
     --grayish-blue: hsl(201, 11%, 66%);
+    --light-blue: hsl(233, 100%, 69%);
+    --strong-cyan: hsl(171, 66%, 44%); 
   }
   
   * {
@@ -13,9 +13,9 @@
     color: var(--dark-grayish-blue);
     font-family: "Bai Jamjuree", sans-serif;
     font-size: 18px;
-    text-align: center;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    text-align: center;   
   }
   
   header {
@@ -31,8 +31,9 @@
   
   p {
     color: var(--grayish-blue);
-    line-height: 1.5;
     font-size: 16px;
+    line-height: 1.5;
+    
   }
   
   .container {
@@ -49,11 +50,10 @@
   }
   
   .flex {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
   }
   
   .flex > * {
@@ -62,11 +62,10 @@
   }
   
   .split {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-right: 80px;
-
   }
   
   .split p {
@@ -104,8 +103,8 @@
   }
   
   .inner-flex img {
-    transform: translateX(-9%);
     margin-left: 60px;
+    transform: translateX(-9%);   
   }
   
   footer {
@@ -128,8 +127,8 @@
   footer ul {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
     list-style-type: none;
+    padding: 0;   
   }
   
   footer .links {
@@ -137,8 +136,8 @@
   }
   
   footer .links li {
-    padding: 10px;
     margin-right: 40px;
+    padding: 10px;   
   }
   
   footer .links li a:active,
@@ -176,40 +175,8 @@
     }
   
     footer .links li {
-      padding: 10px;
       margin-right: 0;
+      padding: 10px;     
     }
   }
-  /* 
-  h1 {
-       font-size: 32px;
-       margin-bottom: 16px;
-       text-align: center;
-  }
-  p {
-     font-size: 16px;
-     color:  hsl(201, 11%, 66%);
-     line-height: 1.4;
-     margin-bottom: 24px;
-     text-align: center;
-  }
-  .btn {
-      border-radius: 24px;
-      border: none;
-      color: #fff;
-      font-weight: 400;
-      letter-spacing: 0.25px;
-      padding: 12px 24px;
-      width: 100%;
-  }
-  .btn-ios {
-      background-color: hsl(171, 66%, 44%);
-      box-shadow: 0px 3px 0 hsl(171, 53%, 41%);
-      margin-bottom: 16px;
-  }
-  .btn-mac {
-      background-color: hsl(233, 100%, 69%);
-      box-shadow: 0px 3px 0 hsl(233, 59%, 55%);
-      margin-bottom: 12px;
-  } */
-  
+ 
