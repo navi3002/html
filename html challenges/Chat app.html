@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../Themes/chatr-app.css" rel="stylesheet" type="text/css" />
+    <title>chat-app-css-illustration</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="section-mobile">
+        <div class="mobile-screen">
+          <div class="chat">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="chat-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+            <img
+              src="../images/avatar.jpg"
+              alt="chatting with Samuel Green"
+              class="author-img"
+            />
+            <div class="chat-details">
+              <h1 class="chat-author">Samuel Green</h1>
+              <p class="chat-time">Available to walk</p>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="menu-icon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"
+              />
+            </svg>
+          </div>
+          <div class="chat-area">
+            <p class="received-msg">
+              That's sound great. I'd be happy with that
+            </p>
+            <p class="received-msg">
+              Could you send me some pictures your dog please?
+            </p>
+            <div class="media-send">
+              <img
+                src="../images/dog-image-1.jpg"
+                alt="image of a dog"
+                class="animals"
+              />
+              <img
+                src="../images/dog-image-2.jpg"
+                alt="image of a dog"
+                class="animals"
+              />
+              <img
+                src="../images/dog-image-3.jpg"
+                alt="image of a dog"
+                class="animals"
+              />
+            </div>
+            <p class="sender-msg">
+              Here&comma;s are fee pictures. She&comma; is a happy girl
+            </p>
+            <p class="sender-msg">Can you make it?</p>
+            <p class="received-msg">
+              She look&comma; so happy! The time we discussed works. How long
+              shall I take her out for?
+            </p>
+            <div class="received-money">
+              <label for="minute" class="radio">
+                <input
+                  type="radio"
+                  name="task"
+                  id="minute"
+                  class="radio__input"
+                />
+                <!-- <p class="radio__input--custom"></p> -->
+                30 minute walk
+              </label>
+              <strong class="amount">$29</strong>
+            </div>
+            <div class="received-money">
+              <label for="hour" class="radio">
+                <input
+                  type="radio"
+                  name="task"
+                  id="hour"
+                  class="radio__input"
+                />
+                <!-- <p class="radio__input--custom"></p> -->
+                1 hour walk walk
+              </label>
+              <strong class="amount">$49</strong>
+            </div>
+            <div class="type-msg">
+              <input
+                type="text"
+                name="user-msg"
+                id="user"
+                placeholder="Type a message…"
+              />
+              <button class="submit-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="send-icon"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-summary">
+        <div class="summary-box">
+          <h1 class="heading-primary">Simple booking</h1>
+          <p class="summary-text">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Coded by <a href="https://github.com/navi3002/html">Navith Apzal M</a>.
+      </p>
+    </footer>
+  </body>
+</html>

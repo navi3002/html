@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../Images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../Themes/ping.css" />
+    <title>Ping coming soon page</title>
+  </head>
+  <body>
+    <header>
+      <img src="../Images/logo.svg" alt="logo" class="logo" />
+    </header>
+    <main>
+      <section>
+        <h1 class="title">We are launching <span>soon!</span></h1>
+        <p class="cta-text">Subscribe and get notified</p>
+        <form action="/" method="post" id="form">
+          <div class="input-container">
+            <label for="email"></label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="email"
+              placeholder="Your email address..."
+            />
+            <p id="valid-email" class="error-message">
+              Please provide a valid email address
+            </p>
+            <p id="no-email" class="error-message">
+              Whoops! It looks like you forgot to add your email
+            </p>
+            <input type="submit" value="Notify Me" class="submit-button" />
+          </div>
+        </form>
+        <img
+          src="../Images/illustration-dashboard.png"
+          alt="illustration dashboard"
+          class="hero-img"
+        />
+      </section>
+    </main>
+    <footer>
+      <div class="social-icons">
+        <a href="/">
+          <div class="icons-container">
+            <img
+              src="../Images/icon-facebook.svg"
+              alt="Facebook logo"
+              class="fb-logo social-logo"
+            />
+          </div>
+        </a>
+        <a href="/">
+          <div class="icons-container">
+            <img
+              src="../Images/icon-twitter.svg"
+              alt="Twitter logo"
+              class="tw-logo social-logo"
+            />
+          </div>
+        </a>
+        <a href="/">
+          <div class="icons-container">
+            <img
+              src="../Images/icon-instagram.svg"
+              alt="Instagram logo"
+              class="ig-logo social-logo"
+            />
+          </div>
+        </a>
+      </div>
+    </footer>
+    <script defer src="../js challenges/ping.js"></script>
+  </body>
+</html>
