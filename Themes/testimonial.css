@@ -8,18 +8,20 @@ html {
   }
 
 body {
-    max-width: 1440px;
     background-color: hsl(0, 0%, 100%);
+    max-width: 1440px;
     padding-left: 6rem;
     padding-right: 6rem;
 }
 
 .articles {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    padding: 1.6rem;
-    margin: 1rem;
     border-radius: .7rem;
     box-shadow: 0 5px 25px 10px rgb(216, 216, 216);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 1rem;
+    padding: 1.6rem;
+    
+   
 }
 
 .grid-container {
@@ -29,25 +31,25 @@ body {
 }
 
 .article--daniel {
-    position: relative;
-    grid-area: 1 / 1 / 2 / 3;
     background-color: hsl(263, 55%, 52%);
+    grid-area: 1 / 1 / 2 / 3;
+    position: relative;
 }
 .article--jonathan {
-    grid-area: 1 / 3 / 2 / 4;
     background-color: hsl(217, 19%, 35%);
+    grid-area: 1 / 3 / 2 / 4;
 }
 .article--jeanette {
-    grid-area: 2 / 1 / 3 / 2;
     background-color: hsl(0, 0%, 100%);
+    grid-area: 2 / 1 / 3 / 2;
 }
 .article--patrick {
-    grid-area: 2 / 2 / 3 / 4;
     background-color: hsl(219, 29%, 14%);
+    grid-area: 2 / 2 / 3 / 4;
 }
 .article--kira {
-    grid-area: 1 / 4 / 3 / 5;
     background-color: hsl(0, 0%, 100%);
+    grid-area: 1 / 4 / 3 / 5;
 }
 .article--daniel, 
 .article--jonathan, 
@@ -60,12 +62,13 @@ body {
 }
 
 .article--daniel__quotes {
-    position: absolute;
-    padding-top: 0;
     font-size: 18rem;
-    top: 0;
     left: 23rem;
     opacity: .4;
+    position: absolute;
+    padding-top: 0;
+    top: 0;
+    
 }
 .articles__names-verified {
     display: flex;
@@ -79,8 +82,9 @@ body {
 }
 .articles__photo {
     box-sizing: content-box;
-    max-width: 34px;
     border-radius: 50%;
+    max-width: 34px;
+    
 }
 .article--daniel .articles__photo, 
 .article--patrick .articles__photo
@@ -89,19 +93,19 @@ body {
 }
 .articles__titles {
     display: flex;
+    font-size: .8rem;
     flex-direction: column;
     justify-content: flex-start;
     padding-left: 1rem;
-    font-size: .8rem;
 }
 .articles__names {
     margin-top: 0;
     margin-bottom: 0;
 }
 .articles__verified {
-    opacity: .5;
-    margin-top: 0;
     font-size: .8rem;
+    margin-top: 0;
+    opacity: .5;  
 }
 .articles__p{
     margin-bottom: 1rem;
@@ -109,14 +113,14 @@ body {
     font-weight: 600;
 }
 .articles__quotes {
-    opacity: .7;
     font-weight: 500;
     font-size: .85rem;
     line-height: 1.13rem;
+    opacity: .7;
 }
 .attribution {
-    margin-top: 4rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-top: 4rem;
 }
 a {
     color: rgb(107, 151, 153);
