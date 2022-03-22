@@ -1,0 +1,3 @@
+- `console.log` - normal logging;
+- `console.info` - similar to `console.log`;
+- `console.error` - used for throwing/ handling errors (changes look of logs in console + gives a stackrace);
