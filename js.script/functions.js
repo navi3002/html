@@ -59,3 +59,11 @@ console.log(person);
 // parantheses run first in javascript , so we have wrapped the function in ()
 // the function immediately runs.
 // the arguments passed here is 10 for parameter age.
+function createGame(gameName) {
+  let score = 0;
+  return function win() {
+    score++;
+    return `Your name ${gameName} score is ${score}`;
+  };
+}
+console.log(createGame);
