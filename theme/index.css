@@ -1,32 +1,27 @@
 body {
-    background-image: url('https://wallpaperaccess.com/full/1347419.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+      background-image: url('https://wallpaperaccess.com/full/1347419.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }  
   table,
   th,
   td {
-    border: 1px solid black;
-    font-size: 20px;
+      border: 1px solid black;
+      font-size: 20px;
   }
   a {
-    text-decoration: none;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: red;
+      color: red;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 19px;
+      font-weight: bold;
+      text-decoration: none;
   }
   a:hover {
-    color: black;
-    background-color: red;
+      background-color: red;
+      color: black;
   }
-
   nav {
-
-    float: right;
-    margin-top: 10px;
-   
-    
-  }
+        float: right;
+        margin-top: 10px;
+    }
  

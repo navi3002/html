@@ -1,101 +1,84 @@
 body {
-    font-family: 'Karla',sans-serif;
-    background-color: hsl(218, 22%, 67%);
-    letter-spacing: 1px;
-  }
-  
+      background-color: hsl(218, 22%, 67%);
+      font-family: 'Karla',sans-serif;
+      letter-spacing: 1px;
+  }  
   h2 {
-    font-weight: 700;
-    font-size: 1.4rem;
-    padding-bottom: 15px;
-  }
-  
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding-bottom: 15px;
+  }  
   h3 {
-    font-size: 1rem;
-    color: hsl(204, 43%, 93%);
-  }
-  
+      color: hsl(204, 43%, 93%);
+      font-size: 1rem;
+  }  
   h4 {
-    color: hsl(71, 73%, 54%);
-    font-size: 1.2rem;
-  }
-  
+      color: hsl(71, 73%, 54%);
+      font-size: 1.2rem;
+  }  
   p {
-    font-size: 14px;
-  }
-  
-  /* border radius */
-  
+      font-size: 14px;
+  }  
+  /* border radius */  
   @media (max-width: 767px) {
     .join {
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
-  
     .why-us {
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
-  
     .fluid-container {
-      padding: 7% 5%;
+        padding: 7% 5%;
     }
-  }
-  
+  }  
   @media (min-width: 768px) {
     .join {
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
     .pricing {
-      border-bottom-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
     .why-us {
-      border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
-  
     .fluid-container {
-      padding: 7% 25%;
+        padding: 7% 25%;
     }
-  }
-  
+  }  
   .col-padding {
-    padding: 30px;
-  }
-  
+      padding: 30px;
+  }  
   .join {
-    background-color: hsl(204, 43%, 93%);
-    color: hsl(218, 22%, 70%);
-  }
-  
+      background-color: hsl(204, 43%, 93%);
+      color: hsl(218, 22%, 70%);
+  }  
   .cyan-color {
-    color: hsl(179, 62%, 43%);
-  }
-  
+      color: hsl(179, 62%, 43%);
+  }  
   .pricing {
-    background-color: hsl(179, 62%, 43%);
-    color: white;
-  }
-  
+      background-color: hsl(179, 62%, 43%);
+      color: white;
+  }  
   .dollars {
-    font-size: 2rem;
-  }
-  
+      font-size: 2rem;
+  }  
   .why-us {
-    background-color: hsl(179, 62%, 55%);
-    color: white;
-  }
-  
+      background-color: hsl(179, 62%, 55%);
+      color: white;
+  }  
   .btn {
-    background-color: hsl(71, 73%, 54%);
-    width: 95%;
-    color: white;
-    margin-top: 15px;
-  }
-  
+      background-color: hsl(71, 73%, 54%);
+      color: white;
+      margin-top: 15px;
+      width: 95%;
+  }  
   .attribution {
-     font-size: 11px; text-align: center;
+       font-size: 11px;
+       text-align: center;
    }
   .attribution a {
-    color: hsl(228, 45%, 44%);
+      color: hsl(228, 45%, 44%);
   }

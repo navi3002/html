@@ -18,7 +18,8 @@
         top:0;
         background-color: blue;
     }
-@keyframes anim 2{
+}
+@keyframes anim2 {
     0%{
         left: 0;
         top: 20px;

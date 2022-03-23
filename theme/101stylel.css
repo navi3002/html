@@ -1,33 +1,31 @@
 h2{
-    background-color: green;
-    color: white;
-}
+      background-color: green;
+      color: white;
+  }
 h3{
-    background-color: blue;
-    color: white;
-}
+      background-color: blue;
+      color: white;
+  }
 h1,h3{
-    color: white;
-}
+      color: white;
+  }
 ul li{
-    color:red;
-}
+      color:red;
+  }
 ul>li
 {
-    color:blue;
-}
+      color:blue;
+  }
 li{
-        color:green;  
-}
+          color:green;
+      }
 .item{
-    color: pink;
-}
+      color: pink;
+  }
 #list-item
 {
-color: aqua;
+  color: aqua;
 }
 input[type="email"]{
-    background-color: yellowgreen;
-}
-
-
+      background-color: yellowgreen;
+  }

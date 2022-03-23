@@ -1,29 +1,29 @@
 div{
-    width: 500px;
-    height: 500px;
-    border: 5px solid red;
-    color: aquamarine;
-    background-image:url(./Apj.jpeg);
-   margin:100px auto;
-}
+      background-image:url(./Apj.jpeg);
+      border: 5px solid red;
+      color: aquamarine;
+      height: 500px;
+      margin:100px auto;
+      width: 500px;
+  }
 #div1{
-    width: 500px;
-    height: 500px;
-    border: 5px solid red;
-    color: aquamarine;
-    background-image: url(./Apj.jpeg);
-    margin: 100px auto;
-    background-size: 200px;
-}
+      background-image: url(./Apj.jpeg);
+      background-size: 200px;
+      border: 5px solid red;
+      color: aquamarine;
+      height: 500px;
+      margin: 100px auto;
+      width: 500px;
+  }
 #div2
 {
-    width: 500px;
-    height: 500px;
-    border: 5px solid red;
-    color: aquamarine;
-    background-image:url(./Apj.jpeg);
-    margin: 100px auto;
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+      background-image:url(./Apj.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 200px;
+      border: 5px solid red;
+      color: aquamarine;
+      height: 500px;
+      margin: 100px auto;
+      width: 500px;
+  }
