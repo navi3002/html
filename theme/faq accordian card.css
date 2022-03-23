@@ -27,6 +27,7 @@
   }  
   /* Images */
   .img-container {
+      
       position: relative;
   }  
   .main-img {
@@ -34,13 +35,13 @@
       transform: scale(1.2);
   }  
   .img-pattern {
-      bottom: -210px;
+      bottom: -200px;
       left: -590px;
       opacity: 0.5;
       position: absolute;
   }  
   .cube-img {
-      left: -130px;
+      left: -50px;
       position: absolute;
       top: 50%;
       transform: translate(0%, -30%);
