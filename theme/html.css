@@ -1,0 +1,20 @@
+         body{
+               background-image: url('https://wallpaperaccess.com/full/1347419.jpg');
+               background-repeat: no-repeat;
+               background-size: cover;
+              }
+       a{
+               color: red;
+               font-family: Arial, Helvetica, sans-serif;
+               font-size: 16px;
+               font-weight: bold;
+               text-decoration: white;
+              }
+       a:hover{
+               background-color: rgb(207, 40, 40);
+               color: black;
+              }
+       nav {
+            float: right;
+            margin-top: 10px;
+           }
