@@ -1,0 +1,57 @@
+body {
+      background-color: rgb(162, 171, 201);
+
+  }
+  h1 {
+      margin: auto;
+  }
+  input {
+      appearance: none;
+      background: transparent;
+      border: none;
+      outline: none;
+      text-align: center;
+  }
+  select {
+      appearance: none;
+      background-color: yellow;
+      background: transparent;
+      border: none;
+      font-weight: bold;
+      outline: none;
+      text-align: center;
+  }
+  th,
+  td {
+      appearance: none;
+      background-color: yellow;
+      font-weight: 1000;
+      padding: 30px;
+  }
+  table {
+      background-color: white;
+      box-shadow: 5px 5px 8px black;
+      height: 100px;
+      margin-top: 15%;
+      margin: auto;
+      padding: 8px;
+      table-layout: fixed;
+      text-align: center;
+      width: 600px;
+      margin:auto;
+      margin-top: 5%;
+  }
+  select{
+      background-color: yellow;
+      scroll-behavior: smooth;
+  }
+  h1{
+      text-align: center;
+      margin-top: auto;
+      margin-top: 8%;
+     
+  }
+  input{
+      text-align: center;
+      font-weight: 700;
+  }
