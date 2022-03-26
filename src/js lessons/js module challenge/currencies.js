@@ -1,4 +1,5 @@
 export const currencies = {
+  MSG: 'Select a Country',
   USD: 'United States Dollar',
   AUD: 'Australian Dollar',
   BGN: 'Bulgarian Lev',
