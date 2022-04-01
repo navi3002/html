@@ -57,20 +57,16 @@
           <div class="field" id="check-gen">
             <label for="gender">Gender </label>
             <input type="text" name="gender" id="gender" />
-            <!-- male<input type="radio" name="male" id="male" value="male">
-                female<input type="radio" name="male" id="female" value="female"> -->
           </div>
-          <!-- Last Name :<input type="text" name="lname" id="lname">
-            Age :<input type="number" name="age" id="age"> -->
+
           <div class="buttons">
             <button id="btn">Add</button>
           </div>
         </div>
       </div>
       <div class="search">
-        <!-- <input type="text" id="find" onkeyup="myFunction()" onfocus="copy()" placeholder="Enter name to search"> -->
         <input type="text" id="find" placeholder="Enter name to search" />
-        <input id="submit" />
+        <input type="submit" id="submit" value="submit" />
         <div id="msg"></div>
       </div>
 
@@ -109,6 +105,6 @@
         </table>
       </div>
     </div>
-    <script src="./element.js"></script>
+    <script type="module" src="./element.js"></script>
   </body>
 </html>
