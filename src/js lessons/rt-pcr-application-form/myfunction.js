@@ -8,7 +8,7 @@ export function myFunction() {
   } else {
     for (i = 1; i < tr.length; i++) {
       if (table.rows[i].cells[10].innerHTML === input) {
-        var newRow1 = table1.insertRow(table1.length),
+        var newRow1 = table.insertRow(table.length),
           cell1 = newRow1.insertCell(0),
           cell2 = newRow1.insertCell(1),
           cell3 = newRow1.insertCell(2),
