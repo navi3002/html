@@ -56,8 +56,10 @@ label {
   }
 .search {
   margin-bottom: 40px;
-  margin-top: -50px;
+  margin-top: -144px;
   text-align: center;
+  border-radius: 10%;
+  margin-left: 15px;
 
   }
 .container{
@@ -114,4 +116,10 @@ body{
     height: 45rem;
     margin-left: 29%;
     width: 35rem;
+    margin-top: 25px;
+}
+#find{
+  border-radius: 44px;
+  padding: 17px;
+  background-color: transparent;
 }
