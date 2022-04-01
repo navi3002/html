@@ -39,15 +39,15 @@ export function move() {
       cell11 = newRow.insertCell(10);
     cell1.innerHTML = store_obj['firstname'];
     cell2.innerHTML = store_obj['lastname'];
-    cell3.innerHTML = store_obj['aadhar'];
-    cell4.innerHTML = store_obj['date of birth'];
+    cell3.innerHTML = store_obj['date of birth'];
+    cell4.innerHTML = store_obj['gender'];
     cell5.innerHTML = store_obj['city'];
     cell6.innerHTML = store_obj['date'];
     cell7.innerHTML = store_obj['time'];
-    cell8.innerHTML = store_obj['result'];
-    cell9.innerHTML = store_obj['lab'];
-    cell10.innerHTML = store_obj['report'];
-    cell11.innerHTML = store_obj['gender'];
+    cell8.innerHTML = store_obj['lab'];
+    cell9.innerHTML = store_obj['report'];
+    cell10.innerHTML = store_obj['result'];
+    cell11.innerHTML = store_obj['aadhar'];
   }
   document.getElementById('fname').value = '';
   document.getElementById('lname').value = '';
