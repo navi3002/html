@@ -1,0 +1,119 @@
+.tab {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  background-color: transparent;
+  
+  border-radius: 70px;
+  border-bottom-left-radius: 56px;
+
+}
+.buttons {
+  margin: 10px;
+}
+label {
+  font-weight: bolder;
+}
+.field {
+  align-self: center;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 3px;
+  width: 330px;
+  border: transparent;
+}
+.buttons button {
+ 
+    margin: 20px;
+    background-color: blue;
+        border-radius: 20px;
+        border: none;
+        color: rgb(249, 251, 252);
+        cursor: pointer;
+        font-weight: 600;
+        height: 40px;
+        margin: 20px;
+        outline: none;
+        width: 100px;
+     
+}
+#table,
+#table1 {
+  border: 1px solid black;
+  text-align: left;
+  width: 1350px;
+}
+#table tr th,
+#table1 tr th {
+  border: 1px solid black;
+  margin: 30px;
+}
+.search {
+  margin-bottom: 40px;
+  margin-top: -170px;
+  text-align: center;
+}
+.container{
+  padding: 250px;
+  margin-top: 0px;
+ 
+}
+.tab-1{
+  background-color: transparent;
+}
+body{
+  background-attachment: fixed;
+  background-color: rgb(204, 229, 233);
+  background-image: url("../../../images/download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+                   
+ 
+}
+.heading {
+  color: rgb(49, 45, 45);
+  font-family: sans-serif;
+  margin: 37px;
+
+  text-align: center;
+  margin-bottom: -195px;
+  width: 88%;
+
+}
+#dob, #time, #date{
+  width: 52%;
+}
+.buttons1:hover{
+ color: brown;
+}
+#submit{
+  margin: 20px;
+    background-color: blue;
+        border-radius: 20px;
+        border: none;
+        color: rgb(249, 251, 252);
+        cursor: pointer;
+        font-weight: 600;
+        height: 40px;
+        margin: 20px;
+        outline: none;
+        width: 100px;
+}
+.form {
+  width: 35rem;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 30px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 35%;
+  
+}
