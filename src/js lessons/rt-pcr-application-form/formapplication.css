@@ -1,125 +1,129 @@
 * {
-                     box-sizing: border-box;
-                     margin: 0;
-                     padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
-.tab {
-    align-items: center;
-    background-color: transparent;
-    border-bottom-left-radius: 56px;
-    border-radius: 70px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-    margin-left: 0px;
-  }
-.buttons {
-    margin: 10px;
-  }
-label {
-    font-weight: bolder;
-  }
-.field {
-    align-self: center;
-    border: 1px solid black;
-    border: transparent;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    padding: 3px;
-    width: 330px;
-  }
-.buttons button {
-         background-color: blue;
-         border-radius: 20px;
-         border: none;
-         color: rgb(249, 251, 252);
-         cursor: pointer;
-         font-weight: 600;
-         height: 40px;
-         margin: 20px;
-         margin: 20px;
-         outline: none;
-         width: 100px;
-       }
-#table,
-#table1 {
-    border: 1px solid black;
-    text-align: left;
-    width: 1350px;
-  }
-#table tr th,
-#table1 tr th {
-    border: 1px solid black;
-    margin: 30px;
-  }
-.search {
-  margin-bottom: 40px;
-  margin-top: -144px;
-  text-align: center;
-  border-radius: 10%;
-  margin-left: 15px;
-
-  }
-.container{
-  margin-top: 0px;
-  padding: 240px;
-  padding-top: 20px;
+body {
+  background-attachment: fixed;
+  background-color: rgb(204, 229, 233);
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.tab-1{
-    background-color: transparent;
-  }
-body{
-    background-attachment: fixed;
-    background-color: rgb(204, 229, 233);
-    background-image: url("./images/21image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 .heading {
     color: rgb(49, 45, 45);
     font-family: sans-serif;
-    margin-bottom: -195px;
-    margin: 37px;
+    margin: 40px;
+    padding-left: 40px;
     text-align: center;
-    width: 88%;
   }
-#dob, #time, #date{
-    width: 52%;
-  }
-.buttons1:hover{
-   color: brown;
+.form-container {
+   text-align: center;
  }
-#submit{
-    background-color: blue;
+div {
+    padding: 10px;
+  }
+div input{
+    background-color: white;
     border-radius: 20px;
     border: none;
-    color: rgb(249, 251, 252);
-    cursor: pointer;
     font-weight: 600;
     height: 40px;
-    margin: 20px;
-    margin: 20px;
+    margin-left: 50px;
     outline: none;
-    width: 100px;
+    padding: 10px;
+    width: 350px;
   }
-.form {
-    background: rgba(255, 255, 255, 0.06);
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 30px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    display: flex;
-    flex-direction: column;
-    height: 45rem;
-    margin-left: 29%;
-    width: 35rem;
-    margin-top: 25px;
+#table,
+#table1 {
+  border: 1px solid black;
+  text-align: left;
+  width: 1350px;
 }
-#find{
-  border-radius: 44px;
-  padding: 17px;
-  background-color: transparent;
+#table tr th,
+#table1 tr th {
+  border: 1px solid black;
+  margin: 30px;
+}   
+.tab {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-left: 0px;
 }
+.buttons {
+  margin: 10px;
+}
+label {
+            color: rgb(9, 3, 34);
+            font-weight: 800;
+            font-weight: bolder;
+            width: 100%;
+          }
+.field {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 2px;
+  width: 397px;
+}
+.buttons button {
+  background-color: blue;
+  border-radius: 20px;
+  border: none;
+  color: rgb(249, 251, 252);
+  cursor: pointer;
+  font-weight: 600;
+  height: 40px;
+  margin: 20px;
+  margin: 20px;
+  outline: none;
+  width: 100px;
+}
+#table,
+#table1 {
+  border: 1px solid black;
+  text-align: left;
+  width: 1350px;
+}
+#table tr th,
+#table1 tr th {
+  border: 1px solid black;
+  margin: 30px;
+}
+.search {
+  margin-bottom: 40px;
+  margin-top: -50px;
+  text-align: center;
+}
+#date, #dob, #time{
+     width: 489px;
+   }
+#form {
+  background: rgba(255, 255, 255, 0.06);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  margin-left: 30%;
+  width: 35rem;
+}    
+#submit{
+  background-color: blue;
+  border-radius: 20px;
+  border: none;
+  color: rgb(249, 251, 252);
+  cursor: pointer;
+  font-weight: 600;
+  height: 40px;
+  margin: 20px;
+  margin: 20px;
+  outline: none;
+  width: 100px;
+}      
