@@ -7,7 +7,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import {AppHeaderComponent } from './app.header.component';
 import { BoxaComponent } from './boxa/boxa.component';
-import { CustomerFormComponent } from './customer-form/customer-form.component'
+import { CustomerFormComponent } from './customer-form/customer-form.component';
+import { CountDisplayComponentComponent } from './count-display-component/count-display-component.component';
+import { CounterAppComponent } from './counter-app/counter-app.component';
+import { HitButtonComponent } from './hit-button/hit-button.component';
+import { RtPcrComponent } from './rt-pcr/rt-pcr.component'
 
 @NgModule({
  declarations: [
@@ -15,7 +19,11 @@ import { CustomerFormComponent } from './customer-form/customer-form.component'
   HomeComponent,
   AppHeaderComponent,
   BoxaComponent,
-  CustomerFormComponent
+  CustomerFormComponent,
+  CountDisplayComponentComponent,
+  CounterAppComponent,
+  HitButtonComponent,
+  RtPcrComponent
  ],
  imports: [
   BrowserModule,
