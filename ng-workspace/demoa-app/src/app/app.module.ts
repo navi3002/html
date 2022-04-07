@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,7 +11,9 @@ import { CustomerFormComponent } from './customer-form/customer-form.component';
 import { CountDisplayComponentComponent } from './count-display-component/count-display-component.component';
 import { CounterAppComponent } from './counter-app/counter-app.component';
 import { HitButtonComponent } from './hit-button/hit-button.component';
-import { RtPcrComponent } from './rt-pcr/rt-pcr.component'
+import { RtPcrComponent } from './rt-pcr/rt-pcr.component';
+import { EmployeeFormComponent } from './employee-form/employee-form.component';
+import { BookListComponent } from './book-list/book-list.component'
 
 @NgModule({
  declarations: [
@@ -23,15 +25,18 @@ import { RtPcrComponent } from './rt-pcr/rt-pcr.component'
   CountDisplayComponentComponent,
   CounterAppComponent,
   HitButtonComponent,
-  RtPcrComponent
+  RtPcrComponent,
+  EmployeeFormComponent,
+  BookListComponent
  ],
  imports: [
   BrowserModule,
   AppRoutingModule,
-  FormsModule
+  FormsModule,
+  ReactiveFormsModule
  ],
  providers: [],
- bootstrap: [AppComponent,AppHeaderComponent,HomeComponent]
+ bootstrap: [ AppComponent ]
 })
 export class AppModule { }
 

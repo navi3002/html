@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rt-pcr.component.css']
 })
 export class RtPcrComponent implements OnInit {
+  title = 'RT-PCR-APPLICATION'
 
   constructor() { }
  
   ngOnInit(): void {
+  
   }
 
 }
